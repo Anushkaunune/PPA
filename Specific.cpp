@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+int Addition(int no1, int no2)
+{
+    int ans = 0;
+    ans = no1 + no2;
+    return ans;
+
+}
+float Addition(float no1, float no2)
+{
+    float ans = 0;
+    ans =no1 + no2;
+    return ans;
+}
+double Addition(double no1, double  no2)
+{
+    double iRet = 0.0;
+    float fRet = 0.0f;
+    double dRet = 0.0;
+}
+
+
+int main()
+{
+    int iRet = Addition(10,11);
+  float  fRet = Addition(10.0f,11.0f);
+   double dRet = Addition()
+
+
+    return 0;
+}
